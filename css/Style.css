@@ -13,9 +13,10 @@
 }
 
 body{
-    background-color: var(--white);
+    background-color: #eaf5ea;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 a{
@@ -27,7 +28,7 @@ ul{
 }
 
 header{
-    background-color: transparent;
+    background-color: #006400;
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: relative;
     top: 0;
@@ -52,7 +53,7 @@ header{
 .menu a{
     display: block;
     padding: 30px;
-    color: var(--gray);
+    color: #ffffff;;
 }
 
 .menu a:hover{
@@ -165,4 +166,84 @@ header{
 
 #contact-submit:hover {
     background-color: #218838;
+}
+
+/*SobreNos Css */
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    font-size: 2.5em;
+    color: #2a8a2a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-subtitle {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.about-text {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-text a {
+    color: #2a8a2a;
+    text-decoration: none;
+}
+
+.about-text a:hover {
+    text-decoration: underline;
+}
+/* projetos */
+.projects-section {
+    padding: 20px;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-title {
+    font-size: 2.5em;
+    color: #2a8a2a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
 }
