@@ -6,11 +6,11 @@
     <title>Jardim Zoologico</title>
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/principal.css">
 </head>
 <body>
     <header>
-        <img class="logo" src="https://www.zoo.pt/static/img/logozoo.png"/>
+        <a href="principal.html"><img class="logo" alt="logo" src="https://www.zoo.pt/static/img/logozoo.png"/></a>
         <input class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
         <nav class="nav-menu">
@@ -25,54 +25,62 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
-        <h1>Teste 929393928</h1>
+    <main class="novidades-container">
+        <div class="noticias">
+            <h2>NOTÍCIAS</h2>
+            <h1>Conheça as novidades do Zoo</h1>
+            <button class="ver-todas">Ver todas</button>
+        </div>
+        
+        <section class="novidades">
+            <div class="novidade-item">
+                <img src="src/img/koala.png" alt="Koala no musical infantil">
+                <p>O Planeta é a Nossa Casa – Plano 6 e Jardim Zoológico juntos em novo musical infantil</p>
+                <button>Saber mais</button>
+            </div>
+            <div class="novidade-item">
+                <img src="src/img/pinguin.png" alt="Instalação dos pinguins">
+                <p>Visite o Jardim Zoológico e viaje até à África do Sul para conhecer a nova instalação dos pinguins</p>
+                <button>Saber mais</button>
+            </div>
+            <div class="novidade-item">
+                <img src="src/img/abelha.png" alt="Mundo das abelhas">
+                <p>Venha conhecer o maravilhoso Mundo das Abelhas</p>
+                <button>Saber mais</button>
+            </div>
+        </section>
+
+        <div class="proximo-evento">
+            <h2>PRÓXIMOS EVENTOS</h2>
+            <h1>Junte-se a nós!</h1>
+            <section class="eventos">
+                <div class="evento-item">
+                    <img src="src/img/golfinho.png" alt="O Meu Amigo Golfinho">
+                    <div class="evento-info">
+                        <p>Passatempo O Meu Amigo Golfinho</p>
+                        <span class="evento-data">30 Out</span>
+                    </div>
+                    <span class="evento-icon">➔</span>
+                </div>
+                <div class="evento-item">
+                    <img src="src/img/leopardo.png" alt="Leopardo-da-pérsia">
+                    <div class="evento-info">
+                        <p>Passatempo Leopardo-da-pérsia</p>
+                        <span class="evento-data">31 Out</span>
+                    </div>
+                    <span class="evento-icon">➔</span>
+                </div>
+                <div class="evento-item">
+                    <img src="src/img/leopardo.png" alt="O Planeta é a Nossa Casa">
+                    <div class="evento-info">
+                        <p>O Planeta é a Nossa Casa</p>
+                        <span class="evento-data">03 Nov</span>
+                    </div>
+                    <span class="evento-icon">➔</span>
+                </div>
+            </section>
+            <button class="ver-agenda">Ver agenda</button>
+        </div>
     </main>
 
     <footer>

@@ -29,6 +29,7 @@ ul{
 
 header{
     background-color: #006400;
+    padding: 0.75em 0;
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: relative;
     top: 0;
