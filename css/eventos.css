@@ -1,0 +1,111 @@
+.upcoming-events {
+    padding: 2em;
+    text-align: center;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.event-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+}
+
+.event-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.event-info {
+    padding: 1em;
+}
+
+.event-date {
+    color: #006400;
+    font-weight: bold;
+}
+
+.event-icon {
+    font-size: 1.5em;
+    color: #006400;
+}
+
+.view-agenda {
+    background-color: #006400;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.view-agenda:hover {
+    background-color: #004b2d;
+}
+
+.event-details {
+    padding: 2em;
+    text-align: center;
+}
+
+.event-item a {
+    color: gray;
+    text-decoration: none;
+}
+
+.event-item a:visited {
+    color: gray;
+}
+
+.event-item a:hover {
+    text-decoration: underline;
+}
+
+.event-item a:active {
+    color: gray;
+}
+
+
+.event-details img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .upcoming-events {
+        padding: 1em;
+    }
+
+    .event-item {
+        width: 95%;
+    }
+
+    .view-agenda {
+        padding: 0.6em 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .event-icon {
+        font-size: 1.2em;
+    }
+
+    .event-date {
+        font-size: 0.9em;
+    }
+}
