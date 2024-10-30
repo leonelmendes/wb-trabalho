@@ -7,12 +7,11 @@
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/principal.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
         <a href="principal.html"><img class="logo" alt="logo" src="https://www.zoo.pt/static/img/logozoo.png"/></a>
-        <input class="side-menu" type="checkbox" id="side-menu"/>
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
         <nav class="nav-menu">
             <ul class="menu">
                 <li><a href="principal.html">Pagina Inicial</a></li>
@@ -23,6 +22,11 @@
                 <li><a href="sobreNos.html">Sobre Nos</a></li>
                 <li><a href="faq.html">Faq</a></li>
             </ul>
+            <div class="menu-hamburguer" onclick="alterarMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
         </nav>
     </header>
 
