@@ -37,23 +37,25 @@
             <button class="ver-todas">Ver todas</button>
         </div>
         
-        <section class="novidades">
-            <div class="novidade-item">
-                <img src="src/img/koala.png" alt="Koala no musical infantil">
-                <p>O Planeta é a Nossa Casa – Plano 6 e Jardim Zoológico juntos em novo musical infantil</p>
-                <button >Saber mais</button>
-            </div>
-            <div class="novidade-item">
-                <img src="src/img/pinguin.png" alt="Instalação dos pinguins">
-                <p>Visite o Jardim Zoológico e viaje até à África do Sul para conhecer a nova instalação dos pinguins</p>
-                <button>Saber mais</button>
-            </div>
-            <div class="novidade-item">
-                <img src="src/img/abelha.png" alt="Mundo das abelhas">
-                <p>Venha conhecer o maravilhoso Mundo das Abelhas</p>
-                <button>Saber mais</button>
-            </div>
-        </section>
+        <div class="container-novidade" style="background-image: url('src/img/banner-novidade.png');">
+            <section class="novidades">
+                <div class="novidade-item">
+                    <img src="src/img/koala.png" alt="Koala no musical infantil">
+                    <p>O Planeta é a Nossa Casa – Plano 6 e Jardim Zoológico juntos em novo musical infantil</p>
+                    <button >Saber mais</button>
+                </div>
+                <div class="novidade-item">
+                    <img src="src/img/pinguin.png" alt="Instalação dos pinguins">
+                    <p>Visite o Jardim Zoológico e viaje até à África do Sul para conhecer a nova instalação dos pinguins</p>
+                    <button>Saber mais</button>
+                </div>
+                <div class="novidade-item">
+                    <img src="src/img/abelha.png" alt="Mundo das abelhas">
+                    <p>Venha conhecer o maravilhoso Mundo das Abelhas</p>
+                    <button>Saber mais</button>
+                </div>
+            </section>
+        </div>
 
         <div class="proximo-evento">
             <h2>PRÓXIMOS EVENTOS</h2>
@@ -86,6 +88,77 @@
             </section>
             <button onclick="window.location.href='eventos.html'" class="ver-agenda">Ver agenda</button>
         </div>
+
+        <div class="card-container">
+            <a href="#">
+            <div class="card-crianca">
+                <h1>À noite no Zoo</h1>
+                <p>Programa Educativo Especial<br>para grupos escolares e grupos<br>de escuteiros.</p>
+                <button>Saber mais</button>
+                <img src="src/img/crianca.png" alt="Imagem do programa À noite no Zoo">
+            </div>
+            </a>
+            <div class="card-guepardo">
+                <h1>Donativo</h1>
+                <p>Contribua com um donativo para<br>o Jardim Zoológico e para a sua<br>missão de conservação.</p>
+                <button>Saber mais</button>
+                <img  src="src/img/guepardo.png" alt="Imagem do programa Donativo">
+            </div>
+            <div class="card-gato">
+                <h1>Pet Hotel</h1>
+                <p>No Jardim Zoológico recebemos<br>o seu melhor amigo como se fosse<br>da nossa família.</p>
+                <button>Saber mais</button>
+                <img src="src/img/gato.png" alt="Imagem do programa Pet Hotel">
+            </div>
+        </div>
+
+        <div class="secao-cards">
+            <div class="card" style="background-image: url('src/img/banner-1.jpg');">
+                <div class="texto">
+                    <div class="texto-half">
+                        <h4>Proteção Ambiental</h4>
+                        <h2>Conservação e Investigação</h2>
+                        <p>Desde 1884, o Jardim Zoológico assume a missão de desenvolver e promover um parque zoológico e botânico de excelência, um centro de conservação de espécies vulneráveis e ameaçadas pela extinção.
+                            A investigação científica, os programas de enriquecimento ambiental, e a educação para a conservação, em conjunto, são determinantes para esta missão.</p>
+                        <a href="#" class="botao">Saber mais</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card" style="background-image: url('src/img/banner-3.jpg');">
+                <div class="texto-left">
+                    <div class="texto-half">
+                        <h4>HISTÓRIA</h4>
+                        <h2>Conheça a História do Zoo</h2>
+                        <p>De 1884 até aos dias de hoje, conheça os 140 anos de História do Jardim Zoológico!</p>
+                        <a href="#" class="botao">Saber mais</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card" style="background-image: url('src/img/banner-2.jpg');">
+                <div class="texto">
+                    <div class="texto-half">
+                        <h4>Viver</h4>
+                        <h2>ZOO Kids</h2>
+                        <p>Atividades, curiosidades, jogos e passatempos.<br>
+                            Brinca e aprende com os teus animais favoritos.</p>
+                        <a href="#" class="botao">Saber mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="newsletter-section">
+            <h4 class="newsletter-title">NEWSLETTER</h4>
+            <h2 class="newsletter-heading">Subscreva para conhecer as nossas novidades!</h2>
+            <form class="newsletter-form">
+              <input type="email" placeholder="E-mail" required>
+              <button type="submit">&#x27A4;</button>
+            </form>
+        </div>
+          
+        
     </main>
 
     <footer>
