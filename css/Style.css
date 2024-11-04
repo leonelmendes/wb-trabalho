@@ -276,3 +276,56 @@ header{
     color: #555;
     line-height: 1.6;
 }
+
+/*Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+.footer-partners {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-partners img {
+    height: 40px;
+    width: auto;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: block;
+    color: #555;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #000;
+}
+
+.footer-sponsor {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-sponsor img {
+    height: 40px;
+    margin-bottom: 5px;
+}

@@ -31,30 +31,84 @@
     </header>
 
     <main class="novidades-container">
-        <div class="noticias">
-            <h2>NOTÍCIAS</h2>
-            <h1>Conheça as novidades do Zoo</h1>
-            <button class="ver-todas">Ver todas</button>
+
+        <div class="carousel">
+            <input type="radio" name="carousel" id="slide1" checked>
+            <div class="carousel-item">
+                <img src="src/img/banner-1.jpg" alt="Imagem 1">
+                <div class="carousel-caption">
+                    <h1>Compre online</h1>
+                    <p>Bilhetes com desconto</p>
+                    <a href="#" class="carousel-button">Saber Mais</a>
+                </div>
+            </div>
+        
+            <input type="radio" name="carousel" id="slide2">
+            <div class="carousel-item">
+                <img src="src/img/banner-2.jpg" alt="Imagem 2">
+                <div class="carousel-caption">
+                    <h2>Promoções especiais</h2>
+                    <p>Aproveite descontos limitados</p>
+                    <a href="#" class="carousel-button">Saber Mais</a>
+                </div>
+            </div>
+        
+            <input type="radio" name="carousel" id="slide3">
+            <div class="carousel-item">
+                <img src="src/img/banner-3.jpg" alt="Imagem 3">
+                <div class="carousel-caption">
+                    <h2>O Zoo apresenta a peça</h2>
+                    <p>"O Planeta é a nossa casa"</p>
+                    <a href="#" class="carousel-button">Saber Mais</a>
+                </div>
+            </div>
+        
+            <div class="carousel-nav">
+                <label for="slide1" class="nav-button"></label>
+                <label for="slide2" class="nav-button"></label>
+                <label for="slide3" class="nav-button"></label>
+            </div>
+
+            <div class="carousel-menu">
+                <div class="menu-item">
+                    <img src="src/img/ticket.png" alt="Ícone de Bilhete">
+                    <span>Compre bilhetes online</span>
+                </div>
+                <div class="menu-item">
+                    <img src="src/img/map.png" alt="Ícone de Mapa">
+                    <span>Planeie a sua visita</span>
+                </div>
+                <div class="menu-item">
+                    <img src="src/img/cat.png" alt="Ícone de Animal">
+                    <span>Apadrinhe um animal</span>
+                </div>
+            </div>
         </div>
         
-        <div class="container-novidade" style="background-image: url('src/img/banner-novidade.png');">
-            <section class="novidades">
-                <div class="novidade-item">
-                    <img src="src/img/koala.png" alt="Koala no musical infantil">
-                    <p>O Planeta é a Nossa Casa – Plano 6 e Jardim Zoológico juntos em novo musical infantil</p>
-                    <button >Saber mais</button>
-                </div>
-                <div class="novidade-item">
-                    <img src="src/img/pinguin.png" alt="Instalação dos pinguins">
-                    <p>Visite o Jardim Zoológico e viaje até à África do Sul para conhecer a nova instalação dos pinguins</p>
-                    <button>Saber mais</button>
-                </div>
-                <div class="novidade-item">
-                    <img src="src/img/abelha.png" alt="Mundo das abelhas">
-                    <p>Venha conhecer o maravilhoso Mundo das Abelhas</p>
-                    <button>Saber mais</button>
-                </div>
-            </section>
+
+        <div class="container-noticia" style="background-image: url('src/img/banner-novidade.png');">
+            <div class="noticias">
+                <h2>NOTÍCIAS</h2>
+                <h1>Conheça as novidades do Zoo</h1>
+                <button class="ver-todas">Ver todas</button>
+            </div>
+                <section class="novidades">
+                    <div class="novidade-item">
+                        <img src="src/img/koala.png" alt="Koala no musical infantil">
+                        <p>O Planeta é a Nossa Casa – Plano 6 e Jardim Zoológico juntos em novo musical infantil</p>
+                        <button >Saber mais</button>
+                    </div>
+                    <div class="novidade-item">
+                        <img src="src/img/pinguin.png" alt="Instalação dos pinguins">
+                        <p>Visite o Jardim Zoológico e viaje até à África do Sul para conhecer a nova instalação dos pinguins</p>
+                        <button>Saber mais</button>
+                    </div>
+                    <div class="novidade-item">
+                        <img src="src/img/abelha.png" alt="Mundo das abelhas">
+                        <p>Venha conhecer o maravilhoso Mundo das Abelhas</p>
+                        <button>Saber mais</button>
+                    </div>
+                </section>
         </div>
 
         <div class="proximo-evento">
@@ -158,11 +212,29 @@
             </form>
         </div>
           
+        <div class="footer-img"></div> 
         
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="footer-partners">
+            <img src="https://www.zoo.pt/static/img/footer-eaam-zoo.png" alt="Parceiro 1">
+            <img src="https://www.zoo.pt/static/img/footer-alliance-zoo.png" alt="Parceiro 2">
+            <img src="https://www.zoo.pt/static/img/footer-waza-zoo.png" alt="Parceiro 3">
+            <img src="https://www.zoo.pt/static/img/footer-eaza-zoo.png" alt="Parceiro 4">
+            <img src="https://www.zoo.pt/static/img/footer-eep-zoo.png" alt="Parceiro 5">
+        </div>
+    
+        <div class="footer-links">
+            <h4>Contactos</h4>
+            <a href="politicaPrivacidade.html">Política de Privacidade</a>
+            <a href="termoUso.html">Termos de Uso</a>
+        </div>
+    
+        <div class="footer-sponsor">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Ola_logo.svg" alt="Logo Patrocinador">
+            <p>Patrocinador oficial<br>Baía dos Golfinhos</p>
+        </div>
     </footer>
 </body>
 </html>

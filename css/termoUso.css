@@ -1,0 +1,98 @@
+@import url("https://fonts.google.com/share?selection.family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700");
+
+.terms-of-use {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e9f7ef;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.content {
+    line-height: 1.8;
+    color: #333;
+}
+
+.content h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.content p {
+    margin: 15px 0;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin: 10px 0;
+}
+
+.content a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.terms-of-use .highlight {
+    background-color: #d2e8d6; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.terms-of-use .last-updated {
+    text-align: right;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.terms-of-use .contact-info {
+    font-weight: bold;
+    color: #333;
+}
+
+.terms-of-use .contact-info li {
+    margin: 8px 0;
+}
+
+@media (max-width: 768px) {
+    .terms-of-use {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+}
