@@ -43,12 +43,16 @@ header{
     margin-left: 10px;
 }
 
+.nav-menu{
+  z-index: 10;
+}
 .menu a{
     font-size: large;
     text-decoration: none;
     padding: 15px;
     white-space: nowrap;
-    color: #ffffff;;
+    color: #ffffff;
+    z-index: 10;
 }
 
 .nav-menu li{
@@ -64,6 +68,7 @@ header{
 
 .menu {
     display: flex;
+    position: absolute;
     list-style: none;
     margin: 0;
     padding: 0;
