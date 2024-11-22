@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Utilizador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/PaginaDeUtilizador.css">
+</head>
+<body>
+    <header>
+        <a href="principal.html"><img class="logo" alt="logo" src="https://www.zoo.pt/static/img/logozoo.png"/></a>
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li><a href="principal.html">Pagina Inicial</a></li>
+                <li><a href="produtos.html">Serviços / Produtos</a></li>
+                <li><a href="projectos.html">Portfólio / Projetos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="sobreNos.html">Sobre Nos</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="PaginaDeUtilizador.html" class="">Joaquin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="user-profile">
+        <h1>Bem-vindo ao seu perfil!</h1>
+
+        <section class="profile-form">
+            <h2>Alterar Dados Pessoais</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" value="Joaquin poderoso" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" value="joao@email.com" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" value="******" required>
+
+                <button type="submit" class="btn">Atualizar Dados</button>
+            </form>
+        </section>
+
+        <section class="order-history">
+            <h2>Histórico de Pedidos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Produto</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10/11/2024</td>
+                        <td>Bilhete Família</td>
+                        <td>Enviado</td>
+                    </tr>
+                    <tr>
+                        <td>05/11/2024</td>
+                        <td>Bilhete Individual</td>
+                        <td>Pago</td>
+                    </tr>
+                    <tr>
+                        <td>01/11/2024</td>
+                        <td>Adotar Animal</td>
+                        <td>Cancelado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-partners">
+            <img src="https://www.zoo.pt/static/img/footer-eaam-zoo.png" alt="Parceiro 1">
+            <img src="https://www.zoo.pt/static/img/footer-alliance-zoo.png" alt="Parceiro 2">
+            <img src="https://www.zoo.pt/static/img/footer-waza-zoo.png" alt="Parceiro 3">
+            <img src="https://www.zoo.pt/static/img/footer-eaza-zoo.png" alt="Parceiro 4">
+            <img src="https://www.zoo.pt/static/img/footer-eep-zoo.png" alt="Parceiro 5">
+        </div>
+    
+        <div class="footer-links">
+            <h4>Contactos</h4>
+            <a href="politicaPrivacidade.html">Política de Privacidade</a>
+            <a href="termoUso.html">Termos de Uso</a>
+        </div>
+    
+        <div class="footer-sponsor">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Ola_logo.svg" alt="Logo Patrocinador">
+            <p>Patrocinador oficial<br>Baía dos Golfinhos</p>
+        </div>
+    </footer>
+</body>
+</html>

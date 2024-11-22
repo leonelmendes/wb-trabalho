@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/registro&Login.css">
+</head>
+<body>
+    <header>
+        <a href="principal.html"><img class="logo" alt="logo" src="https://www.zoo.pt/static/img/logozoo.png"/></a>
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li><a href="principal.html">Pagina Inicial</a></li>
+                <li><a href="produtos.html">Serviços / Produtos</a></li>
+                <li><a href="projectos.html">Portfólio / Projetos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="sobreNos.html">Sobre Nos</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="entrar.html" class="">Entrar</a></li>
+                <li><a href="registrar.html" class="">Registro</a></li>
+            </ul>
+            <div class="menu-hamburguer" onclick="alterarMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+        </nav>
+    </header>
+    <main class="auth-container">
+        <h1>Entrar</h1>
+        <form action="PaginaDeUtilizador.html">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Ainda não tem uma conta? <a href="registrar.html">Registe-se</a></p>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-partners">
+            <img src="https://www.zoo.pt/static/img/footer-eaam-zoo.png" alt="Parceiro 1">
+            <img src="https://www.zoo.pt/static/img/footer-alliance-zoo.png" alt="Parceiro 2">
+        </div>
+    </footer>
+</body>
+</html>
