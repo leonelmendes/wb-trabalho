@@ -1,0 +1,50 @@
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item{
+    background-color: #f0fff0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img{
+    width: 30%;
+}
+
+.product-item button{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.25s ease, background-color 0.25s ease;
+    font-size: 1em;
+    color: #2e8b57;
+}
+
+.product-item button:hover{
+    cursor: pointer;
+    background-color: #2e8b57;;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.product-item p{
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.product-item h3{
+    font-size: 1.3em;
+}
+
+.product-item a{
+    text-decoration: none;
+    color: inherit;
+}
