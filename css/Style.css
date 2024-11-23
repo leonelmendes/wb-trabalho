@@ -95,6 +95,11 @@ header{
     cursor: pointer;
     position: absolute;
   }
+
+  .menu-cart{
+    width: 24px; 
+    height: 24px;
+  }
   
   .menu-hamburguer span {
     position: absolute;

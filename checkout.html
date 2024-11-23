@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="principal.html"><img class="logo" alt="logo" src="https://www.zoo.pt/static/img/logozoo.png"/></a>
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li><a href="principal.html">Pagina Inicial</a></li>
+                <li><a href="produtos.html">Serviços / Produtos</a></li>
+                <li><a href="projectos.html">Portfólio / Projetos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="sobreNos.html">Sobre Nos</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="entrar.html" class="">Entrar</a></li>
+                <li><a href="registrar.html" class="">Registro</a></li>
+            </ul>
+            <div class="menu-hamburguer" onclick="alterarMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+        </nav>
+    </header>
+
+    <main class="checkout-container">
+        <h1>Finalização de Compra</h1>
+
+        <section class="order-summary">
+            <h2>Resumo da Compra</h2>
+            <ul>
+                <li>
+                    <span>Pelúcia de Leão Majestoso</span>
+                    <span>1 x 79.90 €</span>
+                </li>
+                <li>
+                    <span>Pelúcia de Tigre Selvagem</span>
+                    <span>1 x 89.90 €</span>
+                </li>
+                <li>
+                    <span>Peluche de Panda Dorminhoco</span>
+                    <span>3 x 89.90 €</span>
+                </li>
+                <li>
+                    <span>Peluche de Macaco Brincalhão</span>
+                    <span>2 x 74.90 €</span>
+                </li>
+                <li class="total">
+                    <strong>Total:</strong>
+                    <strong>562.30 €</strong>
+                </li>
+            </ul>
+        </section>
+
+        <section class="shipping-info">
+            <h2>Informações de Envio</h2>
+            <form id="checkout-form">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+                <label for="address">Morada:</label>
+                <input type="text" id="address" name="address" placeholder="Digite sua morada" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+351 123456789" required>
+
+                <label for="payment-method">Método de Pagamento:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit-card">Cartão de Crédito</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Transferência Bancária</option>
+                </select>
+                
+                <button type="submit" for="confirm-check" class="confirm-btn">Confirmar Compra</button>
+
+            </form>
+        </section>
+
+    
+    </main>
+
+    <dialog id="success-dialog">
+        <h2>Compra realizada com sucesso!</h2>
+        <p>Obrigado pela sua compra. Você será redirecionado para a página principal em breve.</p>
+        <button id="close-dialog-btn">OK</button>
+    </dialog>
+
+
+    <footer class="footer">
+        <div class="footer-partners">
+            <img src="https://www.zoo.pt/static/img/footer-eaam-zoo.png" alt="Parceiro 1">
+            <img src="https://www.zoo.pt/static/img/footer-alliance-zoo.png" alt="Parceiro 2">
+            <img src="https://www.zoo.pt/static/img/footer-waza-zoo.png" alt="Parceiro 3">
+            <img src="https://www.zoo.pt/static/img/footer-eaza-zoo.png" alt="Parceiro 4">
+            <img src="https://www.zoo.pt/static/img/footer-eep-zoo.png" alt="Parceiro 5">
+        </div>
+    
+        <div class="footer-links">
+            <h4>Contactos</h4>
+            <a href="politicaPrivacidade.html">Política de Privacidade</a>
+            <a href="termoUso.html">Termos de Uso</a>
+        </div>
+    
+        <div class="footer-sponsor">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Ola_logo.svg" alt="Logo Patrocinador">
+            <p>Patrocinador oficial<br>Baía dos Golfinhos</p>
+        </div>
+    </footer>
+</body>
+</html>

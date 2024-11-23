@@ -44,7 +44,18 @@
     font-size: 1.3em;
 }
 
-.product-item a{
-    text-decoration: none;
-    color: inherit;
+.product-item label{
+    margin-left: 10px;
 }
+
+.add-cart input{
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+.add-cart a{
+    margin-left: 20px;
+}
+

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/produtoDetalhe.css">
-    <script src="js/script.js" defer></script>
+    <script src="../js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -32,13 +32,16 @@
 
     <main class="product-section">
         <div class="product-item">
-            <h2>Pelúcia de Panda Dorminhoco</h2>
+            <h2>Peluche de Panda Dorminhoco</h2>
             <img src="../src/img/panda-pelucia.png" alt="Pelucia Panda">
             <p>Um panda adorável, sempre pronto para um cochilo. Seu pelo preto e branco supermacio é um convite para o carinho.</p>
             <h3>89,90 €</h3>
-            <div>
-                <button>Comprar</button>
-                <button>visualizar</button onclick="windows.location.href='produtoDetalhe/productPanda.html'">
+            <div class="add-cart">
+                <button>Adicionar ao carrinho</button>
+                <label>
+                    Quantidade
+                    <input type="number" value="1" min="1">
+                </label>
             </div>
         </div>
     </main>
