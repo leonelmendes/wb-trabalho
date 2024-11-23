@@ -175,6 +175,7 @@ input[type="radio"] {
     cursor: pointer;
 }
 
+
 .container-noticia{
     background-size: cover;
     background-position: center;
@@ -198,6 +199,20 @@ input[type="radio"] {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.fundoBranco{
+background-color: #f7f7f7;
+}
+.TextoVisivel{
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+    border-color: black;
+}
+
 
 .novidade-item img {
     width: 100%;
