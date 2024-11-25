@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/Style.css">
     <link rel="stylesheet" href="css/produtos.css">
     <script src="js/script.js" defer></script>
+    <script src="js/FiltrarProdutos.js"></script>
 </head>
 <body>
     <header>
@@ -92,7 +93,6 @@
                 <ul>
                     <li>Respeite as regras do Jardim Zoológico.</li>
                     <li>Por motivos de ordem técnica, operacional, etc.</li>
-                    <!-- Mais informações aqui -->
                 </ul>
         
                 <p><strong>HORÁRIO DE FUNCIONAMENTO</strong></p>
@@ -111,9 +111,39 @@
                 </ul>
             </div>
         </div>
-        
+        <div class="filter-section">
+            <form id="filter-form">
+                <div>
+                    <label for="category">Categoria:</label>
+                    <select id="category" name="category">
+                        <option value="all">Todos</option>
+                        <option value="peluche">peluche</option>
+                        <option value="tickets">Ingressos</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="price-range">Preço:</label>
+                    <select id="price-range" name="price-range">
+                        <option value="all">Todos</option>
+                        <option value="low">Menos de 50€</option>
+                        <option value="medium">50€ - 100€</option>
+                        <option value="high">Mais de 100€</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="popularity">Popularidade:</label>
+                    <select id="popularity" name="popularity">
+                        <option value="all">Todos</option>
+                        <option value="high">Alta</option>
+                        <option value="medium">Média</option>
+                        <option value="low">Baixa</option>
+                    </select>
+                </div>
+                <button type="button" id="apply-filters">Aplicar Filtros</button>
+            </form>
+        </div>        
         <section class="product-section">
-            <div class="product-item">
+            <div class="product-item" data-category="peluche" data-price="79.90" data-popularity="medium">
                 <a href="produtoDetalhe/productLeao.html">
                     <h2>Peluche de Leão Majestoso</h2>
                     <img src="src/img/leao-pelucia.png" alt="Pelucia Leao">
@@ -126,7 +156,7 @@
                 </a>
             </div>
 
-            <div class="product-item">
+            <div class="product-item" data-category="peluche" data-price="79.90" data-popularity="high">
                 <a href="produtoDetalhe/productGirafa.html">
                     <h2>Peluche de Girafa Alegre</h2>
                     <img src="src/img/girafa-pelucia.png" alt="Pelucia Girafa">
@@ -139,7 +169,7 @@
                 </a>
             </div>
 
-            <div class="product-item">
+            <div class="product-item" data-category="peluche" data-price="99.90" data-popularity="medium">
                 <a href="produtoDetalhe/productElefante.html">
                     <h2>Peluche de Elefante Carinhoso</h2>
                     <img src="src/img/elefante-pelucia.png" alt="Pelucia Elefante">
@@ -152,7 +182,7 @@
                 </a>
             </div>
 
-            <div class="product-item">
+            <div class="product-item"data-category="peluche" data-price="89.90" data-popularity="high">
                 <a href="produtoDetalhe/productPanda.html">
                     <h2>Peluche de Panda Dorminhoco</h2>
                     <img src="src/img/panda-pelucia.png" alt="Pelucia Panda">
@@ -165,7 +195,7 @@
                 </a>
             </div>
 
-            <div class="product-item">
+            <div class="product-item"data-category="peluche" data-price="94.90" data-popularity="high">
                 <a href="produtoDetalhe/productTigre.html">
                     <h2>Peluche de Tigre Aventuroso</h2>
                     <img src="src/img/tigre-pelucia.png" alt="Pelucia Tigre"> 
@@ -178,7 +208,7 @@
                 </a>
             </div>
 
-            <div class="product-item">
+            <div class="product-item"data-category="peluche" data-price="74.90" data-popularity="medium">
                 <a href="produtoDetalhe/productMacaco.html">
                     <h2>Peluche de Macaco Brincalhão</h2>
                     <img src="src/img/macaco-pelucia.png" alt="Pelucia Macaco">
