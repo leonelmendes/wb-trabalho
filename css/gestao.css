@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls a.add-product,
+.controls a.back-to-hub {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+
+.controls a.add-product:hover {
+    background-color: #45a049;
+}
+.controls a.back-to-hub {
+    background-color: #007bff;
+    color: white;
+}
+
+.controls a.back-to-hub:hover {
+    background-color: #0056b3;
+}
+
+
+.controls input[type="text"] {
+    width: 250px;
+    padding: 10px 40px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.controls input[type="text"]:focus {
+    border-color: #2e8b57;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(46, 139, 87, 0.4);
+}
+
+.controls input[type="text"]::placeholder {
+    color: #999;
+}
+
+.controls .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+}
+
+.controls input[type="text"]:focus + .search-icon {
+    color: #2e8b57;
+}
+
+.controls select {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: border-color 0.3s ease;
+    width: 150px;
+}
+
+.controls select:focus {
+    border-color: #2e8b57;
+    background-color: #fff;
+}
+
+.controls select:hover {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: #2e8b57;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table td img {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button,
+a.add-product,
+button.delete,
+button.add-category,
+button.add-product {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+a.add-product:hover,
+button.add-category:hover,
+button.add-product:hover {
+    transform: translateY(-2px);
+}
+
+a.add-product {
+    background-color: #2e8b57;
+    color: white;
+    text-decoration: none;
+}
+
+a.add-product:hover {
+    background-color: #45a049;
+}
+
+button.delete {
+    background-color: #dc143c;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c11235;
+}
+
+button.add-category,
+button.add-product {
+    background-color: #2e8b57;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button.add-category:hover,
+button.add-product:hover {
+    background-color: #45a049;
+}
+
+button.details {
+    background-color: #007bff;
+    color: white;
+}
+
+button.activate {
+    background-color: #28a745;
+    color: white;
+}
+
+button.details:hover,
+button.activate:hover {
+    background-color: #006bb3;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #2e8b57;
+    background-color: #fff;
+}
+
+form .form-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+a.edit {
+    background-color: #00be00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.edit:hover {
+    background-color: #00640d;
+    transform: translateY(-2px);
+}

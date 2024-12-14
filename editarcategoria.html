@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Categoria</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/editarcategoria.css">
+</head>
+<body>
+    <div class="edit-category">
+        <h1>Editar Categoria</h1>
+        <form action="gestaodecategorias.html" method="post">
+            <label for="category-name">Nome da Categoria:</label>
+            <input type="text" id="category-name" name="category-name" value="Nome da Categoria Existente" required>
+
+            <label for="category-description">Descrição:</label>
+            <textarea id="category-description" name="category-description" required>Descrição da categoria existente</textarea>
+
+            <div class="form-actions">
+                <button type="submit">Salvar Alterações</button>
+                <a href="gestaodecategorias.html">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
