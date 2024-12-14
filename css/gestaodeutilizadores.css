@@ -1,0 +1,166 @@
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #2e8b57;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.controls a.add-user,
+.controls a.back-to-hub {
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.controls a.add-user {
+    background-color: #2e8b57;
+    color: white;
+}
+
+.controls a.add-user:hover {
+    background-color: #45a049;
+}
+
+.controls a.back-to-hub {
+    background-color: #007bff;
+    color: white;
+}
+
+.controls a.back-to-hub:hover {
+    background-color: #0056b3;
+}
+
+.controls input[type="text"] {
+    width: 250px;
+    padding: 10px 40px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.controls input[type="text"]:focus {
+    border-color: #2e8b57;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(46, 139, 87, 0.4);
+}
+
+.controls input[type="text"]::placeholder {
+    color: #999;
+}
+
+.controls .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+}
+
+.controls input[type="text"]:focus + .search-icon {
+    color: #2e8b57;
+}
+
+.controls select {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: border-color 0.3s ease;
+    width: 150px;
+}
+
+.controls select:focus {
+    border-color: #2e8b57;
+    background-color: #fff;
+}
+
+.controls select:hover {
+    cursor: pointer;
+}
+
+/* Ajustes na tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px; /* Diminuímos o padding */
+    text-align: left;
+    font-size: 14px; /* Reduzimos o tamanho da fonte */
+}
+
+th {
+    text-align: center;
+}
+
+/* Ajuste no tamanho das colunas da tabela */
+td {
+    width: 20%; /* Ajustando a largura das células para ficarem mais compactas */
+}
+
+/* Botões */
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px; /* Reduzindo o tamanho da fonte dos botões */
+}
+
+a.edit {
+    background-color: #00c932;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a.edit:hover {
+    background-color: #07cc00;
+}
+
+button.delete {
+    background-color: #dc143c;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c11235;
+}
+
+button.details {
+    background-color: #007bff;
+    color: white;
+}
+
+button.details:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Produtos</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/gestao.css">
+</head>
+<body>
+    <div class="product-management">
+        <h1>Gestão de Produtos</h1>
+        <div class="controls">
+            <a href="criarprodutos.html" class="add-product">Adicionar Produto</a>
+            <a href="administrador.html" class="back-to-hub">Voltar para o Hub de administrador</a>
+            <input type="text" placeholder="Pesquisar produtos">
+            <select>
+                <option>Todas as Categorias</option>
+                <option>Peluche</option>
+            </select>
+            <select>
+                <option>Todos os Estados</option>
+                <option>Ativo</option>
+                <option>Inativo</option>
+            </select>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Categoria</th>
+                    <th>Stock</th>
+                    <th>Estado</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="src/img/leao-pelucia.png" alt="Leão Majestoso"></td>
+                    <td>Peluche de Leão Majestoso</td>
+                    <td>79,90 €</td>
+                    <td>Peluche</td>
+                    <td>10</td>
+                    <td>Ativo</td>
+                    <td>
+                        <a href="editarproduto.html" class="edit">Editar</a>
+                        <button class="delete">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="src/img/girafa-pelucia.png" alt="Girafa Alegre"></td>
+                    <td>Peluche de Girafa Alegre</td>
+                    <td>79,90 €</td>
+                    <td>Peluche</td>
+                    <td>15</td>
+                    <td>Ativo</td>
+                    <td>
+                        <a href="editarproduto.html" class="edit">Editar</a>
+                        <button class="delete">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="src/img/elefante-pelucia.png" alt="Elefante Carinhoso"></td>
+                    <td>Peluche de Elefante Carinhoso</td>
+                    <td>99,90 €</td>
+                    <td>Peluche</td>
+                    <td>5</td>
+                    <td>Inativo</td>
+                    <td>
+                        <a href="editarproduto.html" class="edit">Editar</a>
+                        <button class="delete">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Produto</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/criarprodutos.css">
+</head>
+<body>
+    <div class="create-product">
+        <h1>Criar Produto</h1>
+        <form action="gestaodeprodutos.html" method="post">
+            <label for="product-name">Nome:</label>
+            <input type="text" id="product-name" name="product-name" placeholder="Nome do produto" required>
+
+            <label for="product-price">Preço:</label>
+            <input type="number" id="product-price" name="product-price" placeholder="Preço do produto" step="0.01" required>
+
+            <label for="product-category">Categoria:</label>
+            <select id="product-category" name="product-category" required>
+                <option value="peluche">Peluche</option>
+                <option value="outros">Outros</option>
+                <option value="acessorios">Acessórios</option>
+            </select>
+
+            <label for="product-stock">Stock:</label>
+            <input type="number" id="product-stock" name="product-stock" placeholder="Quantidade em Stock" required>
+
+            <label for="product-status">Estado:</label>
+            <select id="product-status" name="product-status" required>
+                <option value="active">Ativo</option>
+                <option value="inactive">Inativo</option>
+            </select>
+
+            <label for="product-image">Imagem (URL):</label>
+            <input type="text" id="product-image" name="product-image" placeholder="URL da imagem" required>
+
+            <div class="form-actions">
+                <button type="submit">Criar Produto</button>
+                <a href="gestaodeprodutos.html">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Utilizadores</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/gestaodeutilizadores.css">
+</head>
+<body>
+    <div class="controls">
+        <a href="criarutilizador.html" class="add-user">Adicionar Utilizador</a>
+        <a href="administrador.html" class="back-to-hub">Voltar para o Hub</a>
+        <input type="text" placeholder="Pesquisar utilizadores">
+        <span class="search-icon"></span>
+        <select>
+            <option>Todos os Estados</option>
+            <option>Ativo</option>
+            <option>Inativo</option>
+        </select>
+    </div>
+
+    <h1>Gestão de Utilizadores</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Senha</th>
+                <th>Estado</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João Silva</td>
+                <td>joao.silva@email.com</td>
+                <td>********</td>
+                <td>Ativo</td>
+                <td>
+                    <a href="editarutilizador.html" class="edit">Editar</a>
+                    <button class="delete">Eliminar</button>
+                    <button class="details">Informação Adicional</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Ana Costa</td>
+                <td>ana.costa@email.com</td>
+                <td>********</td>
+                <td>Inativo</td>
+                <td>
+                    <a href="editarutilizador.html" class="edit">Editar</a>
+                    <button class="delete">Eliminar</button>
+                    <button class="details">Informação Adicional</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

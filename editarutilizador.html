@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Utilizador</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/editarutilizador.css">
+</head>
+<body>
+    <div class="edit-user">
+        <h1>Editar Utilizador</h1>
+        <form action="gestaodeutilizadores.html" method="post">
+            <label for="user-name">Nome:</label>
+            <input type="text" id="user-name" name="user-name" value="João Silva" required>
+
+            <label for="user-email">Email:</label>
+            <input type="email" id="user-email" name="user-email" value="joao.silva@email.com" required>
+
+            <label for="user-password">Senha:</label>
+            <input type="password" id="user-password" name="user-password" value="********" required>
+
+            <label for="is-admin">Administrador:</label>
+            <input type="checkbox" id="is-admin" name="is-admin" checked>
+            <span>Marque esta opção se o utilizador for um administrador</span>
+
+            <div class="form-actions">
+                <button type="submit">Salvar Alterações</button>
+                <a href="gestaodeutilizadores.html">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
